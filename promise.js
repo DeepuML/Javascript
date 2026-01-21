@@ -2,7 +2,7 @@ console.log("Hello world start");
 
 //  code
 
-const p1 = fetch("https://ai.github.com/users");
+const p1 = fetch("https://api.github.com/users");
 
 console.log(p1);
 
