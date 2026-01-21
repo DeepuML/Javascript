@@ -1,12 +1,9 @@
 console.log("Hello world start");
 
+//  code
 
-//  code 
+const p1 = fetch("https://ai.github.com/users");
 
-
-
-
-
-
+console.log(p1);
 
 console.log("Hello world end");
