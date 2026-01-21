@@ -22,6 +22,8 @@ function pickupOrder() {
   }, 3000);
 }
 
+// calling the functions = > callback hell
+
 placeOrder(function() {
   OrderFood(function() {
     pickupOrder();
